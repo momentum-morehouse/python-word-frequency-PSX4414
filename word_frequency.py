@@ -30,3 +30,13 @@ if __name__ == "__main__":
     else:
         print(f"{file} does not exist!")
         exit(1)
+
+
+punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+
+no_punct = ""
+for char in my_str:one-today.txt
+if char not in punctuations:
+  no_punct = no_punct + char
+
+print(no_punct)
