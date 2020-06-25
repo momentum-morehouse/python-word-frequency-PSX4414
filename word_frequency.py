@@ -33,10 +33,19 @@ if __name__ == "__main__":
 
 
 punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
-
 no_punct = ""
 for char in my_str:one-today.txt
 if char not in punctuations:
   no_punct = no_punct + char
 
 print(no_punct)
+
+
+string = 'real_love.txt'
+print(string.lower())  
+
+
+text = "real_love.txt"
+# remove words between 1 and 3
+shortword = re.compile(r'\W*\b\w{STOP_WORDS}\b')
+print(shortword.sub('', text))
